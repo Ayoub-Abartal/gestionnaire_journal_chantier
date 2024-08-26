@@ -6,17 +6,15 @@ import Header from '../components/Header';
 const Dashbaord = () => {
   return (
     <div className='flex h-screen'>
-        <SideBar></SideBar>
-        <div className='flex flex-1 flex-col'>
+      <SideBar/>
+      <div className='flex flex-1 flex-col'>
 
-         <Header/>
+        <Header/>
             
-            <MainContent>
-                <div>Card 1 </div>
-                <div>Card 2</div>
-                <div>Card 3 </div>
-            </MainContent>
-        </div>
+        <MainContent>
+          
+        </MainContent>
+      </div>
     </div>
   )
 }

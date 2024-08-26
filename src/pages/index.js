@@ -1,5 +1,6 @@
 import Home from "./Home";
 import CreateProject from "./CreateProject";
 import Projects from "./Projects";
-import Dashbaord from "./Dashbaord";
-export {Home, CreateProject, Projects,Dashbaord}
+import Dashboard from "./Dashboard";
+
+export {Home, CreateProject, Projects, Dashboard}

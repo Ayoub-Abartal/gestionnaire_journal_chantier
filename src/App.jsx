@@ -2,12 +2,11 @@ import React from 'react';
 import AppRoutes from "./routes";
 
 function App() {
-
   return (
     <main>
-      <AppRoutes/>
+      <AppRoutes />
     </main>
-  )
+  );
 }
 
 export default App
