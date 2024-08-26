@@ -1,18 +1,11 @@
-import {Route, BrowserRouter as Router, Routes} from 'react-router-dom'
-import {Home, CreateProject, Projects } from "./pages"
-
+import React from 'react';
+import AppRoutes from "./routes";
 
 function App() {
 
   return (
     <main>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/projects" element={<Projects/>} />
-          <Route path="/createProject" element={<CreateProject/>}></Route>
-        </Routes>
-      </Router>
+      <AppRoutes/>
     </main>
   )
 }
